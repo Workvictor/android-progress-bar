@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ProgressBar</string>
+    <string name="btn_heal">heal me</string>
+</resources>

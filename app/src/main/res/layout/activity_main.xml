@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:id="@+id/hpBar"
+        android:indeterminate="false"
+        android:max="100"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32sp"
+        android:minHeight="16dip"
+        android:progress="50"
+        android:progressDrawable="@drawable/hp_bar"/>
+
+    <Button
+        android:id="@+id/btnHeal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hpBar"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btn_heal"
+        android:layout_marginTop="24sp"/>
+    
+    
+</RelativeLayout>
